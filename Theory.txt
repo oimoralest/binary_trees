@@ -1,0 +1,57 @@
+0x1D. C - Binary trees
+    Binary tree
+        A binary tree is a tree data structure in which each node hast at most
+        two children, which are referred to as the left child and the right
+        child.
+
+        In coputing, binary trees are used in two very different ways:
+
+        - First, as a means of accessing nodes based on some value or label
+        associated with each node. Binary trees labelled this way are used to
+        implement binary search trees and binary heaps, and are used for
+        efficient searching and sorting.
+
+        - Second, as a representation of data with a relevant bifurcating
+        structure. In such cases, the particular arrangement of nodes under
+        and/or to the left or right of other nodes is part of the information
+
+        Definitions
+            - Recursive: An extended binary tree (binary tree with nodes that
+            only have one children empty) is defined as:
+                - The empty set is an extended binary tree
+                - if T1 and T2 are extended binary trees, then denote T1.T2 the
+                extended binary obtained by adding a root r connected to the
+                left to T1 and to the right to T2 by adding edges cases when
+                these sub-trees non-empty.
+
+            -Graph theory: Binary tree is a rooted tree that is also an ordered
+            tree in which every node has at most two children.
+
+        Types of binary trees
+
+        Properties of binary trees
+
+        Combinatorics
+
+        Methods for storing binary trees
+            Nodes and references
+
+            Arrays
+
+        Encodings
+            Succint encodings
+
+            Encoding general trees as binary trees
+
+        Common operations
+            Insertion and Search
+                See: https://www.tutorialspoint.com/data_structures_algorithms/tree_data_structure.htm
+
+            Deletion
+                See: https://en.wikipedia.org/wiki/Binary_search_tree#Deletion
+
+            Trasversal
+                See: https://www.tutorialspoint.com/data_structures_algorithms/tree_traversal.htm
+
+    Reference: https://en.wikipedia.org/wiki/Binary_tree
+
